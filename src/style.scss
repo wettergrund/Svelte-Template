@@ -1,13 +1,47 @@
 :root{
-    --primary-clr: red;
+    --primary-clr: rgb(88, 88, 88);
 
 }
  
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body{
     background: rgb(231, 231, 231);
     max-width: 800px;
     margin: 0 auto;
+
+    font-family: sans-serif;
+    color: var(--primary-clr);
 }
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0;
+
+    .logo{
+        align-self: center;
+    }
+    ul{
+        display: flex;
+        gap: 1rem;
+        list-style: none;
+
+        justify-content: end;
+
+        a{
+            text-decoration: none;
+            color: var(--primary-clr);
+        }
+
+
+    }
+
+}
+
 h1{
     color: var(--primary-clr);
 }

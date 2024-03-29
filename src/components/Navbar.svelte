@@ -1,5 +1,9 @@
+<script>
+    import NavItems from './NavItems.svelte';
+</script>
+
 <nav>
-    <a href="/">Home</a>
-    <a href="/about">About</a>
-    <a href="/api">Fetch data</a>
+    <div class="logo">Jonas</div>
+    <NavItems />
+
 </nav>

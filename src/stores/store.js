@@ -10,3 +10,9 @@ export const drinkNames = derived(apiData, ($apiData) => {
     }
     return [];
   });
+
+  export const navItems = writable([
+    { text: 'Home', path: '/' },
+    { text: 'About', path: '/about' },
+    { text: 'Api', path: '/api' },
+  ]);
