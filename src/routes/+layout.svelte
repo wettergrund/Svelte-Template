@@ -4,10 +4,16 @@
     import Navbar from "../components/Navbar.svelte";
 
     $: outerWidth = 0;
+
     
 
 
 </script>
+<style lang="scss">
+    @import '../style.scss';
+</style>
+  
+
 
 <svelte:window bind:outerWidth />
 
@@ -22,3 +28,5 @@
 </div>
 
 <Footer />
+
+
